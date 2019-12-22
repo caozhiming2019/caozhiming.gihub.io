@@ -128,7 +128,7 @@
 <meta name="description" content="No Pain NO Gain">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Miij&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/archives/2019/12/index.html">
+<meta property="og:url" content="https://caohziming.net/tags/Linux/index.html">
 <meta property="og:site_name" content="Miij&#39;s Blog">
 <meta property="og:description" content="No Pain NO Gain">
 <meta property="article:author" content="曹志明">
@@ -162,13 +162,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2019/12/"/>
+  <link rel="canonical" href="https://caohziming.net/tags/Linux/"/>
 
 
 
 
 
-  <title>归档 | Miij's Blog</title>
+  <title>标签: Linux | Miij's Blog</title>
   
 
 
@@ -187,7 +187,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -332,33 +332,15 @@
   
   
   
-  <div class="post-block archive">
+  <div class="post-block tag">
+
     <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
-
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 2 篇日志。 继续努力。
-      </span>
+      <div class="collection-title">
+        <h1>Linux<small>标签</small>
+        </h1>
+      </div>
 
       
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2019">2019</h1>
-          </div>
-        
-        
-
         
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
@@ -366,46 +348,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/12/21/M39%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/" itemprop="url">
+            <a class="post-title-link" href="/2018/01/24/M39%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/" itemprop="url">
               
-                <span itemprop="name">M39课堂笔记</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-12-21T23:56:52+08:00"
-              content="2019-12-21" >
-          12-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2019/12/21/test/" itemprop="url">
-              
-                <span itemprop="name">test</span>
+                <span itemprop="name">基础命令</span>
               
             </a>
         
@@ -413,9 +358,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2019-12-21T23:02:57+08:00"
-              content="2019-12-21" >
-          12-21
+              datetime="2018-01-24T15:06:10+08:00"
+              content="2018-01-24" >
+          01-24
         </time>
       </div>
 
@@ -423,17 +368,15 @@
   </article>
 
 
-
       
-
     </div>
+
   </div>
   
   
   
 
   
-
 
 
           </div>
@@ -481,14 +424,32 @@
               
                 <a href="/archives/%7C%7Carchive">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/archives/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -555,8 +516,17 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">曹志明</span>
+  <span class="author" itemprop="copyrightHolder">true</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count"></span>
   
 </div>
 
@@ -728,6 +698,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'JH5sha4mv76jibV8JEWvWT5X-gzGzoHsz',
+        appKey: 'Bizn6PjJPzr2aAdFAR0KOBVu',
+        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
